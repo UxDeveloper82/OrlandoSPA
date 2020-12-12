@@ -1,0 +1,35 @@
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+
+            <!-- Collapsed Hamburger -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Branding Image -->
+            <a class="navbar-brand" [routerLink]="['/home']">
+                Electro-Services
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <!-- Left Side Of Navbar -->
+            <ul class="nav navbar-nav">
+                &nbsp;
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a [routerLink]="['/about']">About</a></li>
+                <li><a [routerLink]="['/contact']">Contact</a></li>
+                <li><a [routerLink]="['/myservices']">My-Services</a></li>
+                <li><a [routerLink]="['/personal']">Personal</a></li>
+                <li><a [routerLink]="['/gallery']">Gallery</a></li>
+                <li><a [routerLink]="['/blog']">Blog</a></li>
+                <li><a [routerLink]="['/login']">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

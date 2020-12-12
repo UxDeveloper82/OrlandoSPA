@@ -1,0 +1,20 @@
+[
+    {"id": 1,
+     "image": "washer-repair1"
+    },
+    {"id": 2,
+    "image": "washer-repair2"
+    },
+    {"id": 3,
+    "image": "washer-repair3"
+    },
+    {"id": 4,
+    "image": "oven-repair1"
+    },
+    {"id": 5,
+    "image": "appliance-repair1"
+    },
+    {"id": 6,
+    "image": "appliance-repair2"
+    }
+]

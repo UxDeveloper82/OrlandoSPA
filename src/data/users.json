@@ -1,0 +1,27 @@
+[
+{ "id" : 1,
+    "username" : "firstUser",
+    "email":"email.gmail"
+  },
+  { "id": 2,
+    "username" :"secondUser",
+    "email":"email.gmail"
+  },
+  { "id": 3,
+    "username":"thirdUser",
+    "email":"email.gmail"
+  },
+  { "id":4,
+    "username":"fourthUser",
+    "email":"email.gmail"
+  },
+  { "id":5,
+  "username":"fithUser",
+  "email":"email.gmail"
+  },
+  
+  { "id":6,
+  "username":"sithUser",
+  "email":"email.gmail"
+  }
+]

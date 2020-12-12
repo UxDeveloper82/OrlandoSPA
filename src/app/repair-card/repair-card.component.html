@@ -1,0 +1,47 @@
+<div class="thumbnail">
+    <img src="assets/images/{{ repair.image }}.jpg" class="img-responsive brands" alt="image1">
+    <div class="caption">
+        <div *ngIf="!repair.showDetails">
+            <h4>
+                <span class="label label-primary">
+                     {{repair.type}}
+                </span>
+            </h4>
+            <h3> 
+               <i class="glyphicon glyphicon-tag"></i>
+                 {{ repair.price | currency:'USD': true }}
+            </h3>
+            <h4>
+               <i class="glyphicon glyphicon-home"></i>
+                 {{repair.address}}
+            </h4>
+            <hr>
+
+            <button class="btn btn-sm btn-success"
+             *ngIf="!repair.showDetails"
+             (click)="repair.showDetails = !repair.showDetails">
+              Details
+            </button>
+        </div> 
+        <div *ngIf="repair.showDetails">
+            <div class="details">
+                 <h5>
+                     <span class="label-primary">
+                        Serving: {{ repair.area }} 
+                    </span>
+                    <span class="label label-primary">
+                         Hours: {{ repair.days }}
+                    </span>
+                 </h5>
+                  <p>{{ repair.description }}</p>
+                  <hr>
+
+                  <button 
+                    class="btn btn-sm btn-danger"
+                    (click)="repair.showDetails =!repair.showDetails">  
+                    Close
+                  </button>
+            </div>      
+        </div>
+    </div>
+</div>

@@ -1,0 +1,92 @@
+[
+   {
+      "id": 1,
+      "type":"Cooktops Repair",
+      "price": 0,
+      "address": "Residential Repairs",
+      "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+      "days": "Mon-Fri",
+      "area": "orlando",
+      "image": "cooktop"
+   },
+   {
+    "id": 2,
+    "type":"Garbage Disposal Repair",
+    "price": 0,
+    "address": "Residential Repairs",
+    "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+    "days": "Mon-Fri",
+    "area": "orlando",
+    "image": "garbage-disposal"
+   },
+   {
+    "id": 3,
+    "type":"Range / Stoves Repair",
+    "price": 0,
+    "address": "Residential Repairs",
+    "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+    "days": "Mon-Fri",
+    "area": "orlando",
+    "image": "stove"
+   },
+   {
+    "id": 4,
+    "type":"Refrigator Repair",
+    "price": 0,
+    "address": "Residential Repairs",
+    "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+    "days": "Mon-Fri",
+    "area": "orlando",
+    "image": "refrigator"
+   },
+   {
+    "id": 5,
+    "type":"Stand Alone Freezers Repair",
+    "price": 0,
+    "address": "Residential Repairs",
+    "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+    "days": "Mon-Fri",
+    "area": "orlando",
+    "image": "alonefreezer"
+   },
+   {
+    "id": 6,
+    "type":"Wall Oven Repair",
+    "price": 0,
+    "address": "Residential Repairs",
+    "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+    "days": "Mon-Fri",
+    "area": "orlando",
+    "image": "wall-oven"
+   },
+   {
+    "id": 7,
+    "type":"Washer and Dryer Repair",
+    "price": 0,
+    "address": "Residential Repairs",
+    "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+    "days": "Mon-Fri",
+    "area": "orlando",
+    "image": "washer-dryer"
+   },
+   {
+    "id": 8,
+    "type":"Dish Washer Repair",
+    "price": 0,
+    "address": "Residential Repairs",
+    "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+    "days": "Mon-Fri",
+    "area": "orlando",
+    "image": "dishwasher"
+   },
+   {
+    "id": 9,
+    "type":"Ice Machine Repair",
+    "price": 0,
+    "address": "Residential Repairs",
+    "description":"We are committed to providing the friendliest, most reliable, same-day service ",
+    "days": "Mon-Fri",
+    "area": "orlando",
+    "image": "ice-maker"
+   }
+]
